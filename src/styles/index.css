@@ -1,3 +1,51 @@
 /* 
     General Styles
 */
+.contener {
+    display: flex;
+    overflow-x: auto;
+    margin:30px
+}
+.card-title{
+    font-size: xx-large;
+    color: rgb(218, 182, 84);
+}
+.info {
+    margin: 0;
+    color: rgb(230, 210, 77);
+    
+}
+.infoSingle {
+    margin: 0;
+    color: rgb(249, 174, 89);
+    background-color: rgba(22, 21, 19, 0.86);
+}
+p.infoSingle{
+     padding: 5px;
+}
+nav {
+    background-color: rgb(21, 21, 21);
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dnp);
+}
+
+.contener::-webkit-scrollbar {
+    width: 8px;
+    background-color: #2546b8;
+    border-radius: 20px;
+}
+
+.contener::-webkit-scrollbar-thumb {
+    background-color: #09C;
+    border-radius: 6px;
+}
+.card{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.infoAuto{
+    color: rgb(243 212 124);
+    
+}
